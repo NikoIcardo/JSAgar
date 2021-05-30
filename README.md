@@ -9,7 +9,7 @@ p5.js can be downloaded here: https://p5js.org/download/
 
 Or you can also run the code in the online editor: https://editor.p5js.org/
 
-Going to the editor and pasting the main javascript file's contents directly in will work. 
+Going to the editor and pasting the main javascript file's contents directly in will work. Try it, its fun!
 
 
 
