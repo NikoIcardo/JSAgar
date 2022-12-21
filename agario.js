@@ -276,19 +276,19 @@ setBits();
 // Main P5 Drawing Environment
 let deathFont;
 function preload() {
-  deathFont = loadFont('font.otf');
+  deathFont = loadFont("font.otf");
 }
 
 function setup() {
   createCanvas(windowWidth, windowHeight, WEBGL);
 
   _text = createGraphics(windowWidth, windowHeight);
-  _text.textFont('Georgia');
+  _text.textFont("Georgia");
   _text.textAlign(CENTER);
   _text.textSize(60);
   _text.fill(166, 16, 30);
   _text.noStroke();
-  _text.text('You Died... Click to Restart', width * 0.5, height * 0.5);
+  _text.text("You Died... Click to Restart", width * 0.5, height * 0.5);
 }
 
 //character vars
